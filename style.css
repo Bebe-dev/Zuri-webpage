@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  color: #514949;
+  padding: 10px;
+  font-family: 'Averta-Regular', sans-serif;
+}
+body a{
+  color: #E7332B;
+  text-decoration: none;
+}
+.section1{
+  text-align: center;
+  height: 803px;
+  background-image: url("https://zuri-team/img/hero-bg.svg");
+  background-color: #FFFAFA;
+}
+.section1 img{
+  margin: 0px 0px 69px;
+  padding-top: 69px;
+}
+.section1 h2{
+  margin: 0px 0px 36px;
+  font-size: 32px;
+}
+.section1 p{
+  margin: 0px 0px 16px;
+  padding: 0px 20%;
+}
+.section1 .btn1{
+  background-color: #E7332B;
+  margin: 0px 24px 0px 0px;
+  padding: 15px 28px;
+  border: 1px solid #E7332B;
+}
+.btn1:hover{
+  background-color: #FFFFFF;
+}
+.section1 .btn1:hover a{
+  color: #E7332B;
+}
+.section1 .btn1 a{
+  color: #FFFFFF;
+}
+.section1 .btn2{
+  background-color: #FFFFFF;
+  padding: 15px 28px;
+  border: solid #E7332B 1px;
+}
+.btn2:hover{
+  background-color: #E7332B;
+}
+.btn2:hover a{
+  color: #FFFFFF;
+}
+.buttons{
+  margin-top: 10%;
+}
+.section2{
+  text-align: center;
+  margin: 15% 0px 10%;
+  padding:0px 33%;
+  
+}
+.section2 h3{
+  font-size: 14px;
+  color: #E7332B;
+  
+}
+.section2 p{
+  color: #514949;
+  font-size: 24px;
+}
+.sec3-cont{
+  display: grid;
+  grid-template: auto / auto auto auto;
+}
+.section3{
+  margin: 40px 10px;
+  background-color: #FFFAFA;
+  padding-bottom: 30px;
+}
+.section3 img{
+  margin: 60px 40px 20px;
+}
+.section3 p{
+  padding: 20px 40px;
+}
+
+.section4{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20% 10px 15%;
+  line-height: 2em;
+}
+.links-div, .contact-div, .follow_us-div{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+.icons{
+  display: flex;
+}
+.icons img{
+  margin-right: 10px;
+}
+footer{
+  margin: 10px;
+  border-top: 1px gray solid;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 10%;
+}
+@media only screen and (max-width: 450px) {
+  .section1{
+    height: auto;
+    padding: 60px 0px;
+  }
+  .section1 p{
+  padding: 10px;
+  }
+  .section1 .btn1{
+    margin: auto;
+    margin: 50px 0px 30px;
+  }
+  .section2{
+    padding: 0px 0px 40px;
+    line-height: 2.5em;
+  }
+  .sec3-cont{
+    display: flex;
+    flex-direction: column;
+  }
+  .section3{
+    line-height: 1.7em;
+    padding-bottom: 80px;
+  }
+  .section3 p{
+    padding: 20px 50px 18px 30px;
+  }
+  .section4{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    margin-top: 100px;
+    padding: 60px 30px 30px;
+  }
+  footer{
+    padding-bottom: 90px;
+  }
+  .links-div, .contact-div, .follow_us-div{
+    margin-bottom: 20px;
+    line-height: 2em;
+  }
+  .icons img{
+    padding-right: 6px;
+  }
+  .section4 > img{
+    margin-bottom: 20px;
+  }
+}
